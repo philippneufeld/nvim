@@ -103,7 +103,7 @@ return packer.startup(function(use)
     use("saadparwaiz1/cmp_luasnip")
 
     -- language server
-    use("jose-elias-alvarez/null-ls.nvim")
+    use("nvimtools/none-ls.nvim")
     use("neovim/nvim-lspconfig")
     use("williamboman/mason.nvim")
     use("williamboman/mason-lspconfig.nvim")
