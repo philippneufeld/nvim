@@ -27,7 +27,7 @@ mason_lspconfig.setup({
     },
 })
 
-local status_ok, null_ls = pcall(require, "null-ls")
+local status_ok, null_ls = pcall(require, "none-ls")
 if not status_ok then
     return
 end
